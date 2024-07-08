@@ -1,0 +1,546 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #bb86fc;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    background-color: #bb86fc;
+    border: none;
+    color: #121212;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px; 
+    box-shadow: 10px 10px 25px #000000;
+}
+
+button:hover {
+    background-color: #3700b3;
+    box-shadow: 10px 10px 25px #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.error {
+    color: red;
+}
+
+.amergencia {
+    height: 100px;
+    width: 250px;
+    border-radius: 30px;
+    font-size: 23px;
+    font-family: monospace;    
+}
+
+.amergencia:hover {
+    background-color: #490000;
+    color: #ffffff;
+}
+
+.option {
+    left: 400px;
+    background-color: transparent;
+    width: 500px;
+    position: fixed;
+}
+
+.ordo {
+    left: 10px;
+    top: 10px;   
+    height: 130px;
+}
+
+.opt {
+    padding: 15px;
+}
+
+.descricao {
+    margin: 15px;
+    position: fixed;
+    right: 40%;
+    background-color: #1212128c;
+    box-shadow: 10px 10px 25px #000000;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.conhecimento {
+    position: fixed;
+    left: 12%;
+    top: -150px;
+    width: 80%;
+}
+
+.fundo {
+    position: fixed;
+    background-color: #121212ad;
+    width: 1720px;
+    height: 2000px;
+    top: -50px;
+}
+
+.opcoes {
+    right: 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.details {
+    position: absolute;
+    display: none;
+    right: 8%;
+    padding: 10px;
+    background-color: #1212128c;
+    box-shadow: 10px 10px 25px #000000;
+    margin-top: 25px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.lista {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.descricao-um {
+    right: 17%;
+    position: absolute;
+    background-color: #1212128c;
+    box-shadow: 10px 10px 25px #000000;
+    padding: 20px;
+    border-radius: 8%;
+    margin-top: 30px;
+}
+
+.emergencia:hover {
+    background-color: red;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+.saber:hover {
+    color: rgb(250, 250, 250);
+    text-shadow: 0px 0px 25px yellow;
+    padding: 1px;
+}
+
+.medo:hover {
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+/* Estilos para a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 10px; /* largura da barra de rolagem */
+}
+
+/* Estilos para o 'thumb' (o indicador de posição) */
+body::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b; /* cor do indicador */
+    border-radius: 5px; /* borda arredondada */
+}
+
+/* Estilos quando o mouse está sobre a barra de rolagem */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* cor alterada ao passar o mouse */
+}
+
+.login {
+    box-shadow: 0px 0px 50px #000000;
+    width: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    left: 43%;
+    position: absolute;
+    top: 25%;
+    background-color: #12121285;
+}
+
+.loginImput {
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    padding-left: 7px;
+}
+
+.option-ent {
+    left: 400px;
+    background-color: transparent;
+    width: 500px;
+    position: fixed;
+}
+
+.descricao-elementos {
+    margin: 15px;
+    position: fixed;
+    right: 40%;
+    background-color: #1212128c;
+    box-shadow: 10px 10px 25px #000000;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+.entidade {
+    position: absolute;
+    display: none;
+    right: 8%;
+    padding: 10px;
+    background-color: #1212128c;
+    box-shadow: 10px 10px 25px #000000;
+    margin-top: 25px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.opcoes-entidades {
+    right: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.lista-sangue {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista-sangue:hover {
+    text-decoration: none;
+    color: #660000;
+    text-shadow: 0px 0px 20px red;
+}
+
+.lista-morte {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista-morte:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 20px white;
+    color: #000000;
+}
+
+.lista-conhecimento {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista-conhecimento:hover {
+    text-decoration: none;
+    color: #ff9100;
+    text-shadow: 0px 0px 20px rgb(255, 238, 0);
+}
+
+.lista-energia {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista-energia:hover {
+    text-decoration: none;
+    color: #ff00b3;
+    text-shadow: 0px 0px 10px rgb(0, 217, 255);
+}
+
+.lista-fechar {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.lista-fechar:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.entidade-sangue {
+    position: fixed;
+    display: none;
+    padding: 60px;
+    background-image: url(Sangue\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1810px;
+    height: 950px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.sangue-ent {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 25px red;
+}
+
+.sangue-detalhe{
+    
+    text-shadow: 0px 0px 25px red;
+}
+
+.Morte-ent {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 0px 20px white;
+    color: #000000;
+}
+
+.morte-detalhe{
+    text-align: center;
+    text-shadow: 0px 0px 20px white;
+    color: #000000;
+}
+
+.entidade-morte {
+    position: absolute;
+    display: none;
+    padding: 60px;
+    background-image: url(Morte\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1790px;
+    height: 1750px;
+    margin-left: -50px;
+    margin-top: -50px;
+    background-position: center;
+}
+
+.entidade-conhecimento {
+    position: absolute;
+    display: none;
+    padding: 60px;
+    background-image: url(Conhecimento-fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1790px;
+    height: 1570px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.Conhecimento-ent {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 0px 20px rgb(255, 251, 0);
+    
+}
+
+.conhecimento-detalhe{
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(255, 251, 0);
+    
+}
+
+.entidade-energia {
+    position: absolute;
+    display: none;
+    padding: 60px;
+    background-image: url(Energia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1790px;
+    height: 1850px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.Energia-ent {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px rgb(255, 0, 234);
+    
+}
+
+.Energia-detalhe{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px rgb(0, 217, 255);
+}
+
+.saber {
+    
+    margin-right: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 20px;
+    
+}
+
+.medo {
+    
+    right: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+
+.energia {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #bb86fc;
+    text-shadow: 0px 0px 25px rgb(0, 217, 255);
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    header, section, footer {
+        padding: 1em;
+        text-align: center;
+    }
+
+    .login {
+        width: 80%;
+        padding: 20px;
+        left: 10%;
+    }
+
+    .descricao, .descricao-elementos {
+        right: 10%;
+        width: 80%;
+    }
+
+    .option, .option-ent {
+        left: 5%;
+        width: 90%;
+    }
+
+    .details, .entidade {
+        right: 5%;
+        width: 90%;
+    }
+
+    .amergencia, button {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    .opt, .opcoes, .opcoes-entidades {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .saber, .medo {
+        margin-left: 5%;
+    }
+
+    .sangue-ent, .energia {
+        font-size: 30px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .login {
+        width: 60%;
+        padding: 25px;
+        left: 20%;
+    }
+
+    .descricao, .descricao-elementos {
+        right: 15%;
+        width: 70%;
+    }
+
+    .option, .option-ent {
+        left: 10%;
+        width: 80%;
+    }
+
+    .details, .entidade {
+        right: 10%;
+        width: 80%;
+    }
+
+    .amergencia, button {
+        width: 80%;
+    }
+
+    nav a {
+        margin: 0.5em;
+    }
+
+    .opt, .opcoes, .opcoes-entidades {
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .saber, .medo {
+        margin-left: 10%;
+    }
+
+    .sangue-ent, .energia {
+        font-size: 40px;
+    }
+}

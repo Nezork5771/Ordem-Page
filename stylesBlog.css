@@ -1,0 +1,303 @@
+
+
+form{
+    position: relative;
+    text-align: right;
+    
+
+}
+
+
+
+.error {
+    color: red;
+}
+
+form{
+    color: white;
+
+}
+
+textarea{
+    background-color: transparent;
+        border: none;
+    color: #fff;
+   
+    height: 40px;
+    width: 480px;
+    font-size: 25px;
+   
+    
+}   
+
+textarea::placeholder{
+    color: #999999;
+    
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+
+
+.TimeLine{
+    position:absolute;
+    left: 37%;
+    width: 500px;
+   padding: 15px;
+    background-color: transparent;
+    top: 130px;
+  
+}
+.iconeImg{
+    height: 35px;
+    width: 35px;
+}
+
+hr{
+    width: 500px;
+    
+}
+
+.submit{
+   text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 1px;
+
+}
+
+.feed{
+    color: white;
+    border: white;
+    border-radius: 2px;
+}
+.option{
+    left: 400px;
+    background-color: transparent;
+    width: 500px;
+    position: fixed;
+}
+.ordo{
+   
+    left: 10px;
+    top: 10px;   
+    
+    height: 130px;
+}
+.opt{
+    padding: 15px;
+    
+
+}
+
+body{
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+   }
+
+   h1{
+   
+    color: #fff;
+    margin: 3px;
+   }
+   nav a{
+     color: #bb86fc;
+     margin: 0 1em;
+     text-decoration: none;
+   }
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    h2{
+        text-align: left;
+        margin: 25px;
+        color: #fff;
+
+    }
+  button {
+background-color: #bb86fc;
+border: none;
+color: #121212;
+padding: 1em 2em;
+cursor: pointer;
+border-radius: 15px;
+font-size: 20px; 
+box-shadow: 10px 10px 25px #000000;
+
+
+}
+
+button:hover {
+background-color: #3700b3;
+}
+
+input{
+color: black;
+display: none;
+}
+
+/* Estilo para o container principal do post */
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #000000;
+    color: white;
+    
+}
+
+/* Estilo para o container de conteúdo do post (texto e imagem) */
+.post-content {
+    background-color: #2a2a2a; /* Cor de fundo apenas para a área de texto e imagem */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para o texto do post */
+.post-content p {
+    margin: 0 0 10px;
+    font-size: 20px;    
+}
+
+/* Estilo para a imagem do post */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os botões e formulários fora da área de texto e imagem */
+.post button, .post form {
+    margin-top: 10px; /* Espaçamento superior para separar dos elementos acima */
+}
+
+/* Estilo para o formulário de comentários */
+.post form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+
+/* Estilo para o input de comentário */
+.post form input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    
+
+}
+
+/* Estilo para o botão de comentário */
+.post form button {
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 15px; 
+}
+
+/* Estilo para a lista de comentários */
+.comments-list {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para cada comentário na lista */
+.comments-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+/* Remover borda inferior do último comentário */
+.comments-list li:last-child {
+    border-bottom: none;
+}
+
+.comment-input{
+    font-size: 20px; 
+    
+    padding-left: 15px;
+    padding-top: 10px;
+    
+
+}
+
+
+.like-button{
+    background-image: url('like.png');
+    background-size: cover;
+   height: 49px;
+   border-radius: 100%;
+   font-size: 13px; 
+   border: none; 
+   
+   
+
+}
+
+.like-count{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
+    padding-bottom: 5px;
+    font-size: 2px;
+    
+}
+
+
+
+.conhecimento {
+    position: fixed;
+    left: 12%;
+    top: -150px;
+    width: 80%;
+}
+
+
+.fundo{
+    position: fixed;
+ background-color: #121212ad;
+ width: 1720px;
+ height: 2000px;
+ top: -50px;
+
+}
+
+
+.comment-button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.postarimg{
+    position: absolute;
+    left: 2px;
+
+}
+
+.delete{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    
+    margin: 10px;
+    margin-top: 15px;
+    right: 20px;
+    
+
+}
+
+.delete:hover{
+    background-color: red;
+    color: #fff;
+    
+   
+}

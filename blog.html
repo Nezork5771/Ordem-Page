@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog dos Agentes</title>
+    <link rel="icon" href="Energia.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesBlog.css">
+</head>
+<body onload="checkLogin(); loadPosts()">
+    <img src="Conhecimento.png" alt="simbolo de conhecimento" class="conhecimento">
+    <div class="fundo"></div>
+    <section>
+        <div class="option">
+            <a href="inicio.html"><img class="ordo" src="Energia.jpg" alt=""></a>
+            <div class="opt">
+                <a href="inicio.html"><button>Inicio</button></a>
+                <br><br><br>
+                <a href="blog.html"><button>Blog</button></a>
+            <br><br><br>
+                <a href="agentes.html"><button>Agentes</button></a>
+                <br><br><br>
+                <a href="bestiario.html"><button>Bestiario</button></a>
+            <br><br><br>
+            <a href="entidades.html"><button>Entidades</button></a>
+            <br><br><br>
+                <button class="logout" onclick="logout()">Logout</button>
+            </div>
+        </div>
+       
+        <div class="TimeLine">
+            <form id="postForm" onsubmit="return submitPost()">
+                <textarea id="postText" required placeholder="O que está acontecendo?"></textarea>
+                
+                <br>
+                <label for="postImage" class="postarimg"><img class="iconeImg" src="imagem.png" alt=""></label>
+                <br>
+                <input type="file" id="postImage" accept="image/*">
+                <br>
+                <button type="submit" class="submit">Postar</button>
+                
+            </form>
+            <br>
+            <hr>
+            <div class="feed" id="postsContainer"></div>
+        </div>
+    </section>
+    <br>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,502 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestiario</title>
+    <link rel="icon" href="Energia.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="checkLogin()">
+    <img src="Conhecimento.png" alt="simbolo de conhecimento" class="conhecimento">
+    <div class="fundo"></div>
+
+    <div class="option">
+        <a href="inicio.html"><img class="ordo" src="Energia.jpg" alt=""></a>
+        <div class="opt">
+            <a href="inicio.html"><button>Inicio</button></a>
+            <br><br><br>
+            <a href="blog.html"><button>Blog</button></a>
+            <br><br><br>
+            <a href="agentes.html"><button>Agentes</button></a>
+            <br><br><br>
+            <a href="bestiario.html"><button>Bestiario</button></a>
+            <br><br><br>
+            <a href="entidades.html"><button>Entidades</button></a>
+            <br><br><br>
+            <button class="logout" onclick="logout()">Logout</button>   
+            <br><br><br>
+        </div>
+    </div>
+    
+    <div class="descricao">
+        <br>
+        <h1>  Criaturas  </h1>
+        <ul class="opcoes">
+          <li><a href="#" onclick="toggleDetails('item1')" class="lista">Zumbi de Sangue</a></li>
+          <li><a href="#" onclick="toggleDetails('item2')" class="lista">Zumbi Bestial</a></li>
+          <li><a href="#" onclick="toggleDetails('item3')" class="lista"> Esqueleto de Lodo </a></li>
+          <li><a href="#" onclick="toggleDetails('item4')" class="lista">Succ</a></li>
+          <li><a href="#" onclick="toggleDetails('item5')" class="lista">Existido</a></li>
+          <li><a href="#" onclick="toggleDetails('item6')" class="lista">Vulto</a></li>
+          <li><a href="#" onclick="toggleDetails('item7')" class="lista">Anárquico</a></li>
+          <li><a href="#" onclick="toggleDetails('item8')" class="lista">Perturbado de Energia</a></li>
+          <li><a href="#" onclick="toggleDetails('item9')" class="lista">Degolificada</a></li>
+        </ul>       
+    </div>
+
+    <div id="item1" class="details">
+        <h2>Zumbi de Sangue</h2>
+        <p>Quando cadáveres que <br> 
+            morreram de forma
+            muito brutal ou dolorosa<br>
+             brsão abandonados
+            em uma área, servem <br>
+            como uma passagem
+            para a entidade de Sangue<br>
+             devorá-los e tomar
+            controle de sua forma física.
+            <br>
+            <br>
+            Sua pele se transforma <br>
+            num material gosmento e
+            vermelho, seus ossos de<br>
+             desfazem se transformando
+            em pura carne, seus olhos<br>
+             são destruídos, os dentes
+            crescem e se tornam pontudos<br>
+             e suas unhas se estendem em<br>
+              grandes e perigosas garras.
+            <br>
+            <br>
+            O tempo de transformação de <br>
+            um corpo para um
+            zumbi de Sangue é irregular,<br>
+             ele depende do corpo
+            sendo devorado e do ambiente<br>
+             em que a metamorfose acontece. <br>
+             É possível enfrentar um cadáver no
+            meio do processo da <br>
+            metamorfose, o que resulta em
+            um zumbi de Sangue mais <br>
+            frágil do que um corpo
+            tomado por completo pelo Sangue.
+            <br>
+            <br>
+            Zumbis de Sangue são cegos<br>
+             e detectam presenças
+            pela movimentação da corrente <br>
+            de ar, com sua pele
+            exposta sendo tão sensível<br>
+             que até os mais sutis
+            movimentos do vento o causam <br>
+            dor e revelam a
+            posição dos seus alvos.
+            <br>
+            <br>
+            Essas criaturas se comportam<br>
+             de maneira bestial e
+            agressiva, como feras <br>
+            descontroladas que buscam
+            apenas devorar toda a carne. <br>
+            Sem raciocinar ou
+            pensar estrategicamente em <br>
+            nenhum momento, são
+            movidos apenas por uma<br>
+             frenesi obsessiva e brutal.</p>
+      </div>
+      
+      <div id="item2" class="details">
+        <h2>Zumbi Bestial</h2>
+        <p>Uma versão maior, mais forte e <br>
+            brutal de um zumbi de sangue, <br>
+            os bestiais costumam ser
+            resultado de um cadáver que <br>
+             foi torturado
+            brutalmente e sentiu dores <br>
+            indescritíveis
+            antes de morrer, ou surgem<br>
+             do corpo de
+            alguém com exposição paranormal<br>
+             elevada
+            que foi devorado por completo<br>
+             pelo Sangue.
+             <br>
+             <br>
+            Zumbis de Sangue bestiais <br>
+            são pesados, com sua
+            massa corporal crescendo <br>
+            até três vezes a do cadáver <br>
+            original. 
+            <br>
+            <br>
+            Seu corpo se adapta a uma <br>
+            forma
+            quadrúpede animalesca e o <br>
+            crânio inteiro do cadáver <br>
+            original é partido ao meio<br>
+             a partir do topo da
+            cabeça, se transformando <br>
+            numa enorme bocarra
+            com dentes capazes de <br>
+            decapitar um ser humano
+            em apenas uma mordida.
+            <br>
+            <br>
+            Ao contrário de sua <br>
+            versão inferior, os bestiais <br>
+            tomam uma atitude mais <br>
+            estratégica em combates. <br>
+            Agem com
+            instintos predatórios, <br>
+            muitas vezes se escondendo e
+            esperando para pegar <br>
+            seus alvos desprevenidos em<br>
+            ataques surpresas.
+            <br>
+            <br>
+        </p>
+      </div>
+      
+      <div id="item3" class="details">
+        <h2>Esqueleto de Lodo</h2>
+        <p>Um cadáver consumido pela Morte, <br>
+            tomando uma forma completamente <br>
+             esquelética e acinzentada. 
+             <br>
+             <br>
+             O Lodo escorre por todos <br>
+             os orifícios de seu corpo, <br>
+             deixando um rastro que parece <br>
+            perseguir a criatura por onde ela passa.
+            <br>
+            <br>
+            Sons bizarros podem ser <br>
+            escutados de dentro de <br>
+            seu crânio, como palavras sem <br>
+            sentido e rugidos invertidos <br>
+            em uma voz rasgada e rouca.
+            <br>
+            <br>
+             O esqueleto de Lodo <br>
+             parece sempre se regenerar <br>
+             após ser destruído, porém,<br>
+              a regeneração pode ser <br>
+              desacelerada ou até mesmo <br>
+              interrompida se o Lodo for <br>
+              queimado ou exposto à Energia.</p>
+      </div>
+
+      <div id="item4" class="details">
+          <h2>Succ</h2>
+          <p>Um ser quadrúpede com patas <br>
+            pontudas, pele enrugada e <br>
+            acinzentada, dois buracos onde <br>
+            deveriam estar seus pulmões, com <br>
+            um longo pescoço enrugado e <br>
+            invertebrado que leva a uma enorme <br>
+            boca circular com vários dentes em
+            camadas internas.<br><br>
+            O succ é uma criatura que <br>
+            busca apenas
+            sugar completamente o ar de <br>
+            dentro dos
+            pulmões de sua vítima, <br>
+            e por causa da sucção de tudo ao seu redor, <br>
+            emite um som alto
+            e constante facilmente <br>
+            confundido com o
+            de um dispositivo de aspirador de pó.
+            </p>
+        </div>
+        
+        <div id="item5" class="details">
+          <h2>Existido</h2>
+          <p>Existe um ditado sussurrado no <br>
+            submundo ocultista. <br>
+            Em todas as línguas, todos os lugares,<br>
+             em todos os tempos, uma ideia nunca pode<br>
+            ser esquecida quando se trata do Outro Lado:<br></p>
+            <h2 class="saber" >“Saber tudo é perder tudo.”</h2>
+            <p>
+            Uma vez humano, hoje apenas uma <br>
+            casca buscando
+            desesperadamente existir, <br>
+            o existido faz o que
+            for possível para continuar sendo <br>
+            observado por
+            alguém consciente.<br><br>
+            Um existido é alguém que foi longe <br>
+            demais, ultrapassou a barreira do <br>
+            Conhecimento e entendeu o
+            Outro Lado por completo. <br>
+            Aquele que lembrou da
+            verdade impossível e que não <br>
+            consegue esquecê-la,
+            não importa o quanto tente.<br><br>
+            Tudo que um existido pode <br>
+            fazer é continuar
+            repetindo seu próprio nome, <br>
+            na tentativa de
+            ser reconhecível, memorável, lembrado.<br>
+             Os
+            textos ao redor de seu corpo <br>
+            trazem
+            frases que historicamente <br>
+            foram
+            origem de Medo. <br><br>
+            Quando o
+            existido sente sua vida ameaçada,<br>
+             essas palavras tatuadas
+            começam a<br>
+             brilhar em um
+            tom dourado, e ele se <br>
+            defende agressivamente daqueles <br>
+            que buscam destruir
+            a casca que um dia representou <br>
+            a mentira
+            de sua <br>
+            existência.</p>
+        </div>
+        
+        <div id="item6" class="details">
+          <h2>Vulto</h2>
+          <p>Em ambientes com a Membrana <br>
+            danificada, às vezes pode ser <br>
+            difícil discernir fatos
+            da paranóia do seu próprio cérebro.
+            <br><br>
+             Sons
+            inexistentes, temperatura inconstante<br>
+             e até
+            mesmo vultos em movimento são <br>
+            relatos
+            constantes daqueles que se <br>
+            aventuram em
+            ambientes com a conhecida <br>
+            neblina gerada
+            pela fragilidade da Membrana.
+            <br><br>
+            E é nessa paranóia que um vulto<br>
+             pode ser gerado. Uma
+            criatura que sequer estava no <br>
+            ambiente, mas graças ao
+            Medo gerado pelo <br>
+            delírio de um observador, é criada
+            pelo Outro Lado através da <br>
+            imaginação assustada e
+            fértil, que então <br>
+            se transforma em uma casca física.
+            <br><br>
+            Um vulto é uma manifestação <br>
+            paranormal que toma
+            forma através do <br>
+            susto de uma possibilidade, aparecendo <br>
+            como uma criatura humanóide <br>
+            formada de
+            névoa sólida capaz <br>
+            de causar estragos reais.</p>
+        </div>
+
+        <div id="item7" class="details">
+          <h2>Anárquico</h2>
+          <p>Quando uma pessoa morre em situações <br>
+            extremamente inoportunas
+            e azaradas em um <br>
+            ambiente com a
+            Membrana danificada, o seu corpo é<br>
+            rapidamente 
+            consumido pela entidade
+            de Energia, tendo <br>
+            todo o oxigênio e
+            líquido dentro de <br>
+            seu cadáver substituído <br>
+            pela surrealidade da entidade.
+            <br><br>
+            A sua pele toma um aspecto <br>
+            semi-transparente e as veias <br>
+            e órgãos internos tomam um aspecto <br>
+            colorido, brilhoso e
+            destacado ao redor <br>
+            de todo o corpo, os
+            olhos <br>
+            se tornam arregalados e emitem <br>
+            uma luz plasmática que varia
+            em um espectro de<br>
+             cores extenso. 
+             <br><br>
+             A sua boca se distorce em um
+            formato <br>
+            forçado e rasgado como
+            um sorriso, e <br>
+            sua saliva toma um
+            aspecto<br>
+             acídico e brilhante, como
+            se a criatura <br>
+            vazasse plasma de
+            Energia de <br>
+            dentro de si.
+            <br><br>
+            Anárquicos são rápidos e <br>
+            imprevisíveis, com movimentos <br>
+            erráticos que
+            os tornam muito <br>
+            difíceis de serem
+            atingidos. <br><br>
+            Seu corpo todo treme
+            enquanto emite <br>
+            gritos e grunhidos
+            distorcidos, <br>
+            como se algum filtro
+            sintético estivesse<br>
+             deformando seus sons.</p>
+        </div>
+        
+        <div id="item8" class="details">
+          <h2>Perturbado de Energia</h2>
+          <p>Quando uma alma é enlouquecida <br>
+            de forma
+            brusca e agressiva, sua <br>
+            psique pode ser tão
+            violentada que a <br>
+            percepção da Realidade se
+            esvai antes <br>
+            mesmo de perceber que não está
+            viva. <br><br>
+            O resultado disso é um <br>
+            perturbado de
+            Energia, uma <br>
+            forma plasmática inconsistente
+            e <br>
+            desesperada, mergulhada em confusão<br>
+             e
+            que não entende <br>
+            nem mesmo o que é.
+            <br><br>
+            O perturbado se <br>
+            agarra à qualquer consciência <br>
+            próxima numa tentativa desesperada <br>
+            de compartilhar
+            e aliviar a sua discórdia mental,<br>
+             mesclando a percepção da <br>
+             Realidade e fazendo seus alvos<br>
+              reviverem
+            memórias traumáticas<br>
+             em um estado de confusão.
+             <br><br>
+            Como uma forma completamente <br>
+            caótica, os perturbados são <br>
+            inconsistentes e não <br>
+            conseguem agir
+            com coerência, afetando<br>
+             os alvos mais próximos que
+            perceberem nos <br>
+            seus arredores.
+            <br><br>
+             Tudo para tentar
+            encontrar uma <br>
+            faísca de sentido e ordem <br>
+            mais uma
+            vez, nem que por apenas um <br>
+            segundo.</p>
+        </div>
+        
+        <div id="item9" class="details">
+          <h2>Degolificada</h2>
+          <p>Uma das criaturas paranormais mais <br>
+            temidas, poucos encontraram
+            uma degolificada e viveram <br>
+            para contar a história. 
+            <br><br>
+            Uma manifestação direta do <br>
+            Outro Lado, esta entidade é <br>
+            formada por todos os
+            elementos paranormais<br>
+             conhecidos pela Realidade.
+             <br><br>
+            Uma figura humanóide, <br>
+            flutuando em uma velocidade <br>
+            constante a alguns
+            centímetros acima do chão. <br>
+            Sua aparência é fantasmagórica,<br>
+             com um corpo
+            retorcido, curvado e brutalmente<br>
+             dilacerado, com vestes rasgadas e <br>
+             sujas em
+            cima de uma pele cinzenta e escamosa.<br>
+            Da sua cabeça, um enorme e <br>
+            liso cabelo preto tampando <br>
+            seu rosto cresce até
+            o chão, se arrastando e se <br>
+            movendo como se tivesse vontade própria.<br><br>
+             Por trás
+            dos longos fios negros, <br>
+            um rosto assombrado, <br>
+            com olhos ausentes<br>
+             revelando
+            dois buracos vazios profundos e
+            desesperados <br>
+            acima de uma boca que parece <br>
+            ser tapada ou costurada por uma espécie de
+            extensão <br>da sua própria pele.<br><br>
+            Ao seu redor, ela carrega <br>
+            uma pesada neblina com rostos atormentados <br>
+            discerníveis como se ela estivesse<br>
+             cercada de dezenas
+            de almas torturadas.<br>
+             Uma visão traumatizante.<br><br>
+            Todas as manifestações da degolificada <br>
+            registradas parecem apontar uma <br>
+            conexão forte com tragédias terríveis
+            envolvendo <br>pessoas muito jovens,<br>
+             como crianças ou adolescentes <br>
+             que morreram de forma cruel diretamente
+            envolvidos <br>
+            em rituais paranormais. <br>
+            Mentes inocentes
+            são fontes poderosíssimas de Medo.<br>
+
+            A degolificada parece se <br>
+            desenvolver e distorcer
+            mais a cada vez que se manifesta <br>
+            na Realidade.<br><br>
+
+            Ela é uma criatura de
+            <h1 class="medo">Medo</h1> 
+            
+            
+            e por isso,<br> apenas
+            confronto direto em combate <br>
+            não é o suficiente
+            para derrotá-la.<br>
+
+            A origem da manifestação da <br>
+            degolificada precisa
+            ser investigada e descoberta,<br>
+             e então ela deve ser
+            confrontada com a verdade<br>
+             terrível que a invocou.
+            Apenas após ser descortinada <br>
+            com a origem da sua
+            manifestação a degolificada <br>
+            poderá ser dissipada
+            ou combatida.<br><br>
+
+            Mesmo com relatos de agentes que<br>
+            tiveram sucesso em suas investigações,<br>
+             a frase que se repete como uma<br>
+            lenda despertando Medo por todos<br>
+            os agentes da Ordem é: <br>
+            “Se você vir
+            longos cabelos pretos <br>
+            flutuando em
+            sua direção… <br><br>
+            CORRA.</p>
+        </div>
+   
+    <script src="scripts.js"></script>
+
+    
+</body>
+</html>

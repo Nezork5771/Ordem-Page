@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentes</title>
+    <link rel="icon" href="Energia.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="checkLogin()">
+    <img src="Conhecimento.png" alt="simbolo de conhecimento" class="conhecimento">
+    <div class="fundo"></div>
+
+    <div class="option">
+        <a href="inicio.html"><img class="ordo" src="Energia.jpg" alt=""></a>
+        <div class="opt">
+            <a href="inicio.html"><button>Inicio</button></a>
+            <br><br><br>
+            <a href="blog.html"><button>Blog</button></a>
+            <br><br><br>
+            <a href="agentes.html"><button>Agentes</button></a>
+            <br><br><br>
+            <a href="bestiario.html"><button>Bestiario</button></a>
+            <br><br><br>
+            <a href="entidades.html"><button>Entidades</button></a>
+            <br><br><br>
+            <button class="logout" onclick="logout()">Logout</button>   
+            <br><br><br>
+        </div>
+    </div>
+    
+    <div class="descricao">
+        <h1>  Membros atualmente ativos  </h1>
+        <br>
+        <button onclick="enviarAlerta()" class="emergencia">Botão de Emergência</button>
+            <br>
+
+        <ul class="opcoes">
+          <li><a href="#" onclick="toggleDetails('item1')" class="lista">Dante</a></li>
+          <li><a href="#" onclick="toggleDetails('item2')" class="lista">Agatha Volkomen</a></li>
+          <li><a href="#" onclick="toggleDetails('item3')" class="lista">Antonio (balu) Pontavera</a></li>
+          <li><a href="#" onclick="toggleDetails('item4')" class="lista">Aron</a></li>
+          <li><a href="#" onclick="toggleDetails('item5')" class="lista">Arthur Cervero</a></li>
+          <li><a href="#" onclick="toggleDetails('item6')" class="lista">Carina Leone</a></li>
+          <li><a href="#" onclick="toggleDetails('item7')" class="lista">Rubens Naluti</a></li>
+          <li><a href="#" onclick="toggleDetails('item8')" class="lista">Eveling (Evy) Taylor</a></li>
+          <li><a href="#" onclick="toggleDetails('item9')" class="lista">Ivete Beicur</a></li>
+          <li><a href="#" onclick="toggleDetails('item10')" class="lista">Marcela Geleerd</a></li>
+          <li><a href="#" onclick="toggleDetails('item11')" class="lista">Renan Geleerd</a></li>
+          <li><a href="#" onclick="toggleDetails('item12')" class="lista">Letícia Mantra</a></li>
+          <li><a href="#" onclick="toggleDetails('item13')" class="lista">Samuel Norte</a></li>
+          <li><a href="#" onclick="toggleDetails('item14')" class="lista">Senhor Veríssimo</a></li>
+        </ul>       
+    </div>
+
+    <div id="item1" class="details">
+        <h2>Dante</h2>
+        <p> Dante deixa seu cabelo<br>
+             crescer e utiliza um coque para
+            manter parte <br>
+            de seu cabelo preso.<br>
+             Veste também uma
+            camiseta de manga <br>
+            curta preta, uma calça amarronzada
+            acompanhada <br>
+            por correntes presas em sua <br>
+            cintura envolvida
+            com uma pequena bolsa <br>
+            para armazenamento e, em seus <br>
+            pés
+            descalços, possui faixas <br>
+            brancas que seguem até sua
+            panturrilha. <br>
+            Não possui mais uma venda, mantendo <br>
+            seus
+            olhos constantemente fechados, <br>
+            acompanhados na cabeça
+            por um longo capuz <br>
+            branco que desce até as suas pernas,
+            preso por <br>
+            um broche.<br>
+             Também é
+            possível notar que as tatuagens <br>
+            que havia anteriormente não
+            estão mais visíveis.</p>
+      </div>
+      
+      <div id="item2" class="details">
+        <h2>Agatha Volkomen</h2>
+        <p> Agatha raspou os lados do <br>
+            cabelo em um degradê, na
+            maioria do tempo<br>
+             veste uma camisa vermelha com um
+            casaco sem mangas <br>
+            preto por cima, acompanhados de
+            uma calça escura <br>
+            e um sapato preto com a sola branca e
+            cadarços <br>vermelhos. <br>
+            Os seus dentes caninos ficaram
+            afiados <br>
+            por conta de sua conexão com <br>
+            o Elemento de</p>
+            <h1 class="sangue">Sangue </h1> <p>e, no seu <br>
+            braço direito, ela possui algumas
+            cicatrizes<br>
+             e duas pulseiras, em seu braço <br>
+             esquerdo
+            Agatha tem vários <br>
+            símbolos Ocultistas tatuados, que
+            chegam<br>
+             até o pescoço, em sua mão ela <br>
+             utiliza vários
+            anéis, tendo um em cada dedo.<br>
+             Usa um brinco de penas
+            em uma de <br>
+            suas orelhas e dois enormes <br>
+            colares em volta
+            
+            de seu pescoço, um tendo uma <br>
+            espécie de joia e o <br>
+            outro um símbolo ocultista.</p>
+      </div>
+      
+      <div id="item3" class="details">
+        <h2>Antonio (balu) Pontavera</h2>
+        <p> Antônio é um homem alto,<br>
+             com 1,90 metros de altura,
+            ele tem um porte físico <br>
+            relativamente bem definido,<br>
+             possui
+            cabelos escuros que na <br>
+            maioria do tempo são penteados<br>
+
+            para trás com gel, além de um <br>
+            bigode que se destaca em
+            seu rosto, acompanhado<br>
+             de um pequeno cavanhaque que<br>
+            não chega totalmente até seu queixo.
+            Durante <br>
+            sua missão em Bariguara com o<br>
+             resto da Equipe
+            Abutres, vestia uma<br>
+             camisa polo verde-claro com as
+            mangas arregaçadas,<br>
+             e calças jeans azuis com um cinto
+            marrom à mostra.<br>
+             Sua camisa fica por dentro de suas
+            calças. <br>
+            Ele também utiliza sapatos sociais marrons.<br>
+
+            Consigo, costuma carregar <br>
+            um enorme machado que tem
+            uma lâmina com <br>
+            saliências feitas a mão e um <br>
+            grande cabo
+            de metal, cuja ponta <br>
+            tem o formato de uma pantera.<br>
+            Durante sua primeira missão de<br>
+             retorno, na qual conheceu
+            sua nova equipe, <br>
+            </p>
+      </div>
+
+      <div id="item4" class="details">
+          <h2>Aron</h2>
+          <p> Aaron é um agente que oculta <br>
+            seu rosto com uma máscara de
+            gás com <br>os visores avermelhados<br>
+             e um casaco com capuz
+            levantado, ocultando seu cabelo, <br>
+            e um suéter<br> acinzentado por
+            baixo. Em suas mãos ele usa um <br>
+            par de <br>luvas de atirador
+            também acinzentadas e nos pés,<br>
+             coturnos escuros.<br>
+              Aaron
+            carrega um rifle de precisão <br>
+            em suas costas, pendurado por
+            uma bandoleira <br>
+            nos seus braços.</p>
+        </div>
+        
+        <div id="item5" class="details">
+          <h2>Arthur Cervero</h2>
+          <p> Arthur tem o cabelo <br>
+            mais comprido, na altura dos
+            ombros, e o mantém <br>
+            meio-preso em um pequeno rabo de
+            cavalo. Ainda possui <br>
+            mechas brancas tanto na barba quanto
+            no cabelo. <br>
+            Ele veste um colete preto <br>
+            com o brasão dos
+            Gaudérios Abutres <br>
+            do lado esquerdo <br>
+            por cima de uma blusa
+            social branca, <br>
+            além de uma calça preta<br>
+             com grandes bolsos e
+            algumas amarrações e um <br>
+            tênis de cano alto.<br>
+              Carrega nas suas costas uma<br>
+               capa preta de guitarra</p>
+        </div>
+        
+        <div id="item6" class="details">
+          <h2>Carina Leone</h2>
+          <p> Carina Leone é uma mulher alta, <br>
+            com
+            1,80 metros de altura, <br>
+            de pele clara e aspecto
+            juvenil. Possui olhos verdes e <br>
+            cabelos
+            castanhos, com algumas<br>
+             mechas pintadas em ciano. Ela <br>
+             também possui diversas tatuagens
+            espalhadas <br>
+            por seu corpo, entre elas um filtro<br>
+             dos sonhos e diversas flores em seus <br>
+             braços,
+            um rato perto de sua mão esquerda <br>
+            e um enorme dragão em suas costas.
+
+            Carina usa uma calça<br>
+             escura com correntes penduradas, <br>
+             além de uma camisa preta
+            de gola alta. <br>
+            Ela também usa botas altas semelhantes <br>
+            a um coturno, uma jaqueta de couro
+            cinzenta e <br>
+            um pingente em forma da cabeça <br>
+            de um leão. Ao entrar em combate, Carina
+            prende seu <br>
+            cabelo e puxa sua gola cobrindo<br>
+             sua boca.
+            </p>
+        </div>
+
+        <div id="item7" class="details">
+          <h2>Rubens Naluti</h2>
+          <p> chegando a 1,56 de altura.<br>
+             Ele prende seu
+            cabelo deixando <br>
+            poucas mechas soltas, continuando
+            com sua <br>
+            camisa longa amarela, com adição<br>
+             de uma
+            jaqueta escura de<br>
+             gola levantada, calça jeans <br>
+             preta,
+            luvas pretas sem dedo <br>
+            e seu pingente de <br>
+            flamingo
+            agora como um colar.</p>
+        </div>
+        
+        <div id="item8" class="details">
+          <h2>Eveling (Evy) Taylor</h2>
+          <p> Uma garota de pele branca pálida, <br>
+            cabelos brancos e olhos vermelhos, <br>
+            medindo 1,49 metros de altura.<br>
+             Ela veste uma calça larga cinza, <br>
+             botas escuras de marinha, <br>
+             um moletom do Mimikyu, luvas de meia arrastão, <br>
+             diversos piercings e brincos. <br>
+             Sua maquiagem é marcante, com um fone de <br>
+             ouvido de gatinho rosa e óculos "Juliete" <br>
+             em formato de chamas vermelhas. <br>
+             Ela possui uma tatuagem de pentagrama <br>
+             na garganta, além de várias outras <br>
+             espalhadas pelo peito, <br>
+             barriga e braços.</p>
+        </div>
+        
+        <div id="item9" class="details">
+          <h2>Ivete Beicur</h2>
+          <p> Ivete é uma mulher de <br>
+            meia-idade, por volta dos<br>
+             50/60 anos,
+            vestindo uma camiseta <br>
+            preta. Ela é frequentemente<br>
+             vista com um
+            cachimbo na boca e várias<br>
+             rugas e linhas de expressão <br>
+             podem
+            ser vistas em seu rosto. <br>
+            Ivete usava um coque em seus<br>
+             cabelos
+            grisalhos. Ivete aparece <br>
+            usando uma regata preta com<br>
+             decote em
+            V e uma jaqueta jeans <br>
+            meio
+            desgastada por cima, <br>
+            calças
+            jeans escuras e sapatos<br>
+             pretos.
+            Possui uma tatuagem em<br>
+             seu braço direito, igual a <br>
+             que
+            Arthur possui em seu pescoço,<br>
+             representando uma
+            insígnia dos Gaudérios Abutres <br>
+            para homenagear a
+            gangue e os membros falecidos <br>
+            dela. Ela usa uma
+            pulseira simples em um dos <br>
+            braços e ainda possui vício
+            em fumar.</p>
+        </div>
+
+        <div id="item10" class="details">
+            <h2>Marcela Geleerd</h2>
+            <p> Marcela é uma mulher entre 30 a <br>
+                40 anos, de pele
+                clara, longos cabelos castanhos <br>
+                cacheados e olhos
+                escuros, com um olhar cansado e <br>
+                pesado. Ela usa uma
+                camisa social branca manchada <br>
+                de sangue, uma calça
+                escura e sapatos marrons <br>
+                Marcela também possui
+                
+                algumas cicatrizes ao redor <br>
+                dos seus braços e bandagens <br>
+                em ambas as mãos.</p>
+          </div>
+
+          <div id="item11" class="details">
+            <h2>Renan Geleerd</h2>
+            <p> Renan é um rapaz magro entre seus 30 anos,<br>
+                 tendo um cabelo repartido ao meio<br>
+                castanho e olhos da mesma cor<br>
+                 com um óculos redondo preto. <br>
+                 Ele usa um jaleco branco<br>
+                por cima de uma camisa bege<br>
+                 com uma gravata vermelha, além<br>
+                  de uma calça e sapatos
+                marrons.</p>
+          </div>
+
+          <div id="item12" class="details">
+            <h2>Letícia Mantra</h2>
+            <p> Letícia é uma mulher alta <br>
+                com longos cabelos
+                loiros indo até <br>
+                seus ombros e olhos azuis, <br>
+                com um par de
+                óculos e uma postura <br>
+                correta, tendo uma certa cara de
+                nojentinha,<br>
+                 como descrito pelo mestre, trajando<br>
+                  um vestido
+                rosa com mangas <br>
+                bufantes pretas e gola branca, <br>
+                usando
+                um par de saltos altos<br>
+                 e uma meia-calça também preta.<br>
+
+                </p>
+          </div>
+
+          <div id="item13" class="details">
+            <h2>Samuel Norte</h2>
+            <p> Samuel é um homem jovem-adulto <br>
+                negro entre
+                seus 20-30 anos de idade, com <br>
+                grandes cabelos escuros
+                presos por uma gominha de cabelo, <br>
+                olhos castanhos
+                escuros, barba rala e um <br>
+                risco na sobrancelha direita.<br>
+                 Ele
+                utiliza uma blusa verde com<br>
+                 gola em "U", calças moletom
+                pretas, chinelos azuis e <br>
+                fones de ouvido acinzentados nas
+                suas orelhas,<br>
+                 que exalam um brilho esverdeado.<br>
+                  Possui
+                luvas pretas e é normalmente <br>
+                visto com um pacote de
+                batatinhas na mão. Na sua versão <br>
+                de Enigma do Medo,
+                adquire um fone de <br>
+                ouvido maior ligado com um microfone,<br>
+                 posicionado na parte <br>
+                 esquerda
+                de seu rosto, e meias.</p>
+          </div>
+
+          <div id="item14" class="details">
+            <h2>Senhor Veríssimo</h2>
+            <p> Veríssimo possui o cabelo <br>
+                curto e bem
+                arrumado, que se estende <br>
+                pelos lados de seu rosto em
+                forma de costeletas, <br>
+                se juntando a sua barba
+                acompanhada de um <br>
+                cavanhaque, por conta de sua idade
+                avançada ambos <br>
+                têm um tom grisalho e esbranquiçado. <br>
+                Geralmente é visto usando um
+                colete preto com uma <br>
+                camisa de gola branca por baixo, além <br>
+                de uma gravata azul e calça
+                um pouco mais <br>
+                azulada, sendo da mesma cor de <br>
+                sua bota. Por conta das constantes
+                pressão e a <br>
+                responsabilidade de tomar conta da Ordem, <br>
+                continua com suas grandes
+                olheiras e rosto <br>
+                esvaído. </p>
+          </div>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
